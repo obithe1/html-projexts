@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>
+      Obi survey
+      </title>
+    </head>
+    <body>
+      <h1 id="title"> 
+        Obi survey
+      </h1>
+      <p id="description">
+        This is a self survey project by me
+      </p>
+      <form id="survey-form"> 
+     <label id="name-label"> Enter Name: <input id="name" type="text" required placeholder="Enter your name here"> </label>
+     <label id="email-label"> Enter Email: <input id="email" type="email" placeholder="Enter your email here" required> </label>
+     <label id="number-label"> Enter Number: <input id="number" type="number" min="1" max="999999999999999" placeholder="Enter your number here" required>
+     <select id="dropdown">
+   <option>How do you find this project?</option>
+   <option>Good</option>
+   <option>Could be improved </option>
+   <option>Bad</option>
+       </select>
+       <label>Do you have any knowledge about web design?
+         <label><input id="yes" type="radio" value="yes" name="answer" >Yes </label>
+         <label><input id="no" type="radio" value="no" name="answer">No </label>
+       </label>
+       <label>Anything you want to add?
+         <textarea placeholder="I find this survey..."></textarea>
+       </label>
+
+    <label>Random checkboxes
+      <label> <input value="random" type="checkbox"> Yes
+    </label>
+    <label> <input value="random" type="checkbox"> No
+    </label>
+       <input type="submit" id="submit">
+      </form>
+      </body>
+  </html>
+ <!-- Started 7.10.2023, completed 10.10.2023 -->
